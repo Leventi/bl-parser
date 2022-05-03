@@ -1,0 +1,16 @@
+fastapi~=0.75.0
+uvicorn~=0.17.6
+pydantic~=1.9.0
+sqlalchemy~=1.4.32
+requests~=2.27.1
+alembic~=1.7.7
+fastapi-utils~=0.2.1
+python-dotenv
+python-multipart
+
+psycopg2-binary
+bs4~=0.0.1
+lxml~=4.8.0
+pylightxl~=1.59
+
+beautifulsoup4~=4.11.1

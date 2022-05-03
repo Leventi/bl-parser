@@ -1,0 +1,20 @@
+version: "3.5"
+services:
+  app:
+    image: bl-parser:0.0.5
+    container_name: bl-parser
+    hostname: bl-parser
+    restart: always
+    build:
+      context: .
+    env_file: .env
+    ports:
+      - "8004:8004"
+    #TODO healthcheck
+    networks:
+        main:
+
+networks:
+  main:
+    driver: bridge
+    name: bl-net-main
